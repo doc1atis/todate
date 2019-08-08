@@ -92,6 +92,9 @@ function reSelect() {
   const lisArray = Array.from(lis);
 
   lisArray.forEach(li => {
+    if (lisArray.indexOf(li) % 2 === 1) {
+      li.style.backgroundColor = "red";
+    }
     li.children[0].onclick = function(event) {
       event.target.classList.toggle("lineIt");
 
