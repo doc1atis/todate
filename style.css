@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.lineIt {
+  text-decoration: line-through;
+}
+
 .todo-list {
   display: flex;
   flex-direction: column;
